@@ -1,14 +1,26 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
+import React from 'react';
+import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import HomePage from './Components/Homepage/HomePage';
+import Hero from './Components/Hero/Hero';
+import AboutUs from './Components/AboutUs/AboutUs';
+import Services from './Components/Services/Services';
+
+
 
 const App = () => {
-  return (
-    <div>
-      <Navbar/>
-      <Hero/>
-    </div>
-  )
-}
+  const {
+    token: { colorBgContainer, borderRadiusLG },
+  } = theme.useToken();
 
-export default App
+  return (
+<div>
+<HomePage/>
+<Hero/>
+<AboutUs/>
+
+
+ </div>
+  );
+};
+
+export default App;

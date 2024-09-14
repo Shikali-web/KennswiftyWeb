@@ -1,0 +1,35 @@
+/* HomePage.css */
+.header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .hero-section {
+    background: url('../../assets/hero.PNG') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove margin */
+    border: 2px solid #fff; /* Border around the hero section */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+  }
+  
