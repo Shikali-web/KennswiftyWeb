@@ -12,7 +12,7 @@
   }
   
   .hero-section {
-    background: url('../../assets/hero.PNG') no-repeat center center;
+    background:url('../../assets/hero.PNG') no-repeat center center;
     background-size: cover;
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove margin */
